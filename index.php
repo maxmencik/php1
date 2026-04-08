@@ -10,7 +10,7 @@
             echo $i." ";
         }
         else {
-            echo "hodne ";
+            echo "hodně ";
         }
     }
 
@@ -31,13 +31,13 @@
     echo "<br><br>5. <br>";
     for ($i=1;$i<=100;$i++) {
         if ($i%3==0 & $i%5==0){
-            echo "BUM PRASK ";
+            echo "BUM PRÁSK ";
         }
         else if ($i%3==0){
             echo "BUM ";
         }
-        else if ($i%3==0){
-            echo "BUM ";
+        else if ($i%5==0){
+            echo "PRÁSK ";
         }
         else{
             echo $i." ";
@@ -45,7 +45,7 @@
     }
 
     echo "<br><br>6. <br>";
-    $planety = ["Merkur", "Venuse", "Zeme", "Mars", "Jupiter", "Saturn", "Uran", "Neptun"];
+    $planety = ["Merkur", "Venuše", "Země", "Mars", "Jupiter", "Saturn", "Uran", "Neptun"];
     foreach ($planety as $planeta) {
         echo $planeta." ";
     }
