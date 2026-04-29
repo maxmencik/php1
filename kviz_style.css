@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(106, 179, 189);
+    color: rgb(255,255,255);
+    font-family: "Quantico", sans-serif;
+    font-size: large;
+    padding: 20px;
+}
+
+input {
+    color: rgb(80, 80, 80);
+    height: 30px;
+    width: 600px;
+    font-size: large;
+    border-radius: 10px;
+    margin: 10px;
+}
+button {
+    background-color: rgb(39, 78, 100);
+    color: white;
+    font-family: "Quantico", sans-serif;
+    font-size: x-large;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 40px;
+}
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 20px;
+}
